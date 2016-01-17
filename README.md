@@ -8,7 +8,7 @@ Creates a SQL table with over 20 known carding shop admin panels and visualizes 
 
 Usage:
 
-(1) Run Loader.py to create monolithic "zeustrackerhosts.sqlite" database with columns rdate, url, ip, rtype, rsource);
+(1) Run Loader.py to create monolithic "CardingAdminShopPanel.sqlite" database with columns rdate, url, ip, rtype, rsource);
 
 (2) Run IPConverter.py to convert hostnames to cities using http://ip-api.com JSON API and post data to "where.data";
 
